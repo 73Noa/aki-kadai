@@ -25,5 +25,8 @@ function mahou000(){document.getElementById('maou').src='img/honou.jpg';
 function waza(){document.getElementById('maou').src='img/bi-mu2.gif';
                   setTimeout("syouten400()",2000);}
 
+function kakusei(){document.getElementById('yu-sya1').src='img/kakusei.png';
+                  alert("勇者は覚醒した！！")}
+
 function bombom(){document.getElementById('bakudan').src='img/bom.jpg';
                  setTimeout("bombom25()",3000);}
