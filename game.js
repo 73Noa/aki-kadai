@@ -1,4 +1,4 @@
-function zangeki(){document.getElementById()}
+function zangeki(){document.getElementById('goburin').src='img'}
 function mahou(){}
 function zangeki1(){}
 function mahou1(){}
