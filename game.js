@@ -10,11 +10,20 @@ function zangeki00(){document.getElementById('doragon').src='img/zangeki.jpg';
 function mahou00(){document.getElementById('doragon').src='img/honou.jpeg';
                   setTimeout("miss()",2000);}
 function miss(){document.getElementById('doragon').src='img/doragon.jpg';
-               alert("敵には効かなかった...");}
+               alert("ドラゴンには効かなかった...");}
 
-function zangeki1(){}
-function mahou1(){}
-function waza(){}
+function miss1(){document.getElementById('maou').src='img/maou.png';
+                  alert("魔王には効かなかった",1000);}
+function syouten400(){document.getElementById('maou').src='img/gekiha.jpeg';
+                     setTimeout("sinka()",2000);}
+function sinka(){document.getElementById('maou').src='img/maou1.jpeg';
+                alert("まだ魔王は終わっていなかった",1000)}
+function zangeki000(){document.getElementById('maou').src='img/zangeki.jpg';
+                  setTimeout("miss1()",2000);}
+function mahou000(){document.getElementById('maou').src='img/honou.jpg';
+                  setTimeout("miss1()",2000);}
+function waza(){document.getElementById('maou').src='img/bi-mu2.gif';
+                  setTimeout("syouten400()",2000);}
 
 function bombom(){document.getElementById('bakudan').src='img/bom.jpg';
                  setTimeout("bombom25()",3000);}
