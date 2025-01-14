@@ -20,7 +20,7 @@ function sinka(){document.getElementById('maou').src='img/maou1.jpeg';
                 alert("まだ魔王は終わっていなかった",1000)}
 function zangeki000(){document.getElementById('maou').src='img/zangeki.jpg';
                   setTimeout("miss1()",2000);}
-function mahou000(){document.getElementById('maou').src='img/honou.jpg';
+function mahou000(){document.getElementById('maou').src='img/honou.jpeg';
                   setTimeout("miss1()",2000);}
 function waza(){document.getElementById('maou').src='img/bi-mu2.gif';
                   setTimeout("syouten400()",2000);}
