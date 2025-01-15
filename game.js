@@ -42,7 +42,9 @@ function maouwaza(){document.getElementById('last-maou1').src='img/bi-mu2.gif';
                   setTimeout("maoubibi()",2000);}
 function maoubibi(){document.getElementById('last-maou1').src='img/maou1.jpeg';
                 alert("魔王に大ダメージを与えた！")}
-function lastbaster(){document.getElementById('last-maou1').src='img/last.jpeg';
-                  setTimeout("saigo()",2000);}
+function lastbaster(){document.getElementById('last-maou1').src='img/basuta-.jpg';
+                  setTimeout("owari()",2000);}
+function owari(){document.getElementById('last-maou1').src='img/daibakuhatu.jpg';
+                setTimeout("saigo()",2000)}
 function saigo(){document.getElementById('last-maou1').src='img/gekiha.jpeg';
                 alert("魔王を倒した！！")}
