@@ -30,19 +30,19 @@ function kakusei(){document.getElementById('yu-sya1').src='img/kakusei.png';
 function last01(){document.getElementById('yu-sya1').src='img/last.jpeg';
                  alert("勇者は覚醒した！！")}
 
-function maouken(){document.getElementById('last-maou').src='img/zangeki.jpg';
+function maouken(){document.getElementById('last-maou1').src='img/zangeki.jpg';
                   setTimeout("maken()",2000);}
-function maken(){document.getElementById('last-maou').src='img/maou1.jpeg';
+function maken(){document.getElementById('last-maou1').src='img/maou1.jpeg';
                 alert("魔王にダメージを与えた！")}
-function maoumahou(){document.getElementById('last-maou').src='img/honou.jpeg';
+function maoumahou(){document.getElementById('last-maou1').src='img/honou.jpeg';
                   setTimeout("maouhou()",2000);}
-function maouhou(){document.getElementById('last-maou').src='img/maou1.jpeg';
+function maouhou(){document.getElementById('last-maou1').src='img/maou1.jpeg';
                 alert("魔王にダメージを与えた！")}
-function maouwaza(){document.getElementById('last-maou').src='img/bi-mu2.gif';
+function maouwaza(){document.getElementById('last-maou1').src='img/bi-mu2.gif';
                   setTimeout("maoubibi()",2000);}
-function maoubibi(){document.getElementById('last-maou').src='img/maou1.jpeg';
+function maoubibi(){document.getElementById('last-maou1').src='img/maou1.jpeg';
                 alert("魔王に大ダメージを与えた！")}
-function lastbaster(){document.getElementById('last-maou').src='img/last.jpeg';
+function lastbaster(){document.getElementById('last-maou1').src='img/last.jpeg';
                   setTimeout("saigo()",2000);}
-function saigo(){document.getElementById('last-maou').src='img/gekiha.jpeg';
+function saigo(){document.getElementById('last-maou1').src='img/gekiha.jpeg';
                 alert("魔王を倒した！！")}
