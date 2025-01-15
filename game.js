@@ -30,3 +30,19 @@ function kakusei(){document.getElementById('yu-sya1').src='img/kakusei.png';
 function last01(){document.getElementById('yu-sya1').src='img/last.jpeg';
                  alert("勇者は覚醒した！！")}
 
+function maouken(){document.getElementById('last-maou').src='img/zangeki.jpg';
+                  setTimeout("maken()",2000);}
+function maken(){document.getElementById('last-maou').src='img/maou1.jpeg';
+                alert("魔王にダメージを与えた！")}
+function maoumahou(){document.getElementById('last-maou').src='img/honou.jpeg';
+                  setTimeout("maouhou()",2000);}
+function maouhou(){document.getElementById('last-maou').src='img/maou1.jpeg';
+                alert("魔王にダメージを与えた！")}
+function maouwaza(){document.getElementById('last-maou').src='img/bi-mu2.gif';
+                  setTimeout("maoubibi()",2000);}
+function maoubibi(){document.getElementById('last-maou').src='img/maou1.jpeg';
+                alert("魔王に大ダメージを与えた！")}
+function lastbaster(){}
+
+<img src="img/maou1.jpeg" id="last-maou" width="200" height="200">
+    <input type="button" value="必殺技" onclick="maouwaza();"><input type="button" value="奥義" onclick="lastbaster();">
