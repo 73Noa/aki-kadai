@@ -26,7 +26,7 @@ function waza(){document.getElementById('maou').src='img/bi-mu2.gif';
                   setTimeout("syouten400()",2000);}
 
 function kakusei(){document.getElementById('yu-sya1').src='img/kakusei.png';
-                 setTimeout("last01()",2000);}
+                 setTimeout("last01()",1000);}
 function last01(){document.getElementById('yu-sya1').src='img/sinyu-sya.png';
                  alert("勇者は覚醒した！！")}
 
