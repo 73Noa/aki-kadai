@@ -42,7 +42,7 @@ function maouwaza(){document.getElementById('last-maou').src='img/bi-mu2.gif';
                   setTimeout("maoubibi()",2000);}
 function maoubibi(){document.getElementById('last-maou').src='img/maou1.jpeg';
                 alert("魔王に大ダメージを与えた！")}
-function lastbaster(){}
-
-<img src="img/maou1.jpeg" id="last-maou" width="200" height="200">
-    <input type="button" value="必殺技" onclick="maouwaza();"><input type="button" value="奥義" onclick="lastbaster();">
+function lastbaster(){document.getElementById('last-maou').src='img/last.jpeg';
+                  setTimeout("saigo()",2000);}
+function saigo(){document.getElementById('last-maou').src='img/gekiha.jpeg';
+                alert("魔王を倒した！！")}
